@@ -1,0 +1,17 @@
+skin: Andromeda
+location: andromeda
+credits: The <b>Andromeda Theme</b> was designed by <a href="https://wolfsims.org">Emily Wolf</a>. To download a copy of this theme, please visit <a href="">Anodyne Xtras</a> or <a href="">GitHub</a>. The use of this theme is regulated by the following <a href="">license</a>.
+version: 1.0
+sections:
+  -
+    type: main
+    preview: preview-main.jpg
+  -
+    type: login
+    preview: preview-login.jpg
+  -
+    type: wiki
+    preview: preview-wiki.jpg
+  -
+    type: admin
+    preview: preview-admin.jpg

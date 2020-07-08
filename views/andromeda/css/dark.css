@@ -1,0 +1,535 @@
+.mode-toggle {
+	background: #fff;
+	color: #000;
+}
+
+html {
+	background: #000 !important;
+	transition: background 0.3s;
+}
+
+.overlay {
+	background: #0000005c;
+	transition: background 0.3s;
+}
+
+body {
+	color: #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #e0e0e0;
+}
+
+.nav-justified li a {
+	color: #9a9a9a;
+}
+
+.mode-toggle.light-mode {
+	background: #000;
+	color: #fff;
+}
+
+.sub-nav {
+	border-left: 3px solid #585858;
+}
+
+.nav-pills li a:hover {
+	background: #575757;
+	color: #fff;
+}
+
+.footer {
+	background: #191919;
+	color: #b3b3b3;
+}
+
+a {
+	color: #95c6e2;
+}
+
+tr.alt td,
+.alt {
+	background-color: #252525;
+}
+
+.admin-nav-pills li a {
+	color: #e0e0e0;
+}
+
+.admin-nav-pills li a:hover {
+	color: #95c6e2;
+}
+
+.menu_category {
+	color: #95c6e2;
+}
+
+select {
+	background: #353535;
+	color: #fff;
+}
+
+.cell-label {
+	color: #fff;
+}
+
+input[type=email],
+input[type=text],
+input[type=password],
+textarea {
+	color: #e4e4e4 !important;
+	background: #353535;
+}
+
+.ui-tabs .ui-tabs-nav {
+	background: #000;
+	color: #fff;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	color: rgb(56, 56, 56);
+	background-color: #95c6e2 !important;
+}
+
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs .ui-tabs-nav li a:hover {
+	color: #fff;
+}
+
+.control-bar {
+	background: #161625;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
+	color: #000;
+}
+
+html.light-mode {
+	background: #fff !important;
+	transition: background 0.3s;
+}
+
+.light-mode .overlay {
+	background: #ffffff5c;
+	transition: background 0.3s;
+}
+
+.light-mode body {
+	color: #4e4e4e;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode h4,
+.light-mode h5,
+.light-mode h6 {
+	color: #7b7b7b;
+}
+
+.light-mode .sub-nav {
+	border-left: 3px solid #eee;
+}
+
+.light-mode .nav-pills li a:hover {
+	background: #ececec;
+	color: #5587bf;
+}
+
+.light-mode .footer {
+	background: #dedede;
+	color: #676767;
+}
+
+.light-mode a {
+	color: #2962a8 !important;
+}
+
+.light-mode tr.alt td,
+.light-mode .alt {
+	background-color: #eee;
+}
+
+.light-mode .control-bar {
+	background: #818ea1;
+}
+
+.light-mode .menu_category {
+	color: #2962a8;
+}
+
+.light-mode .admin-nav-pills li a {
+	color: rgb(89, 89, 89);
+}
+
+.light-mode .menu_category {
+	color: #2962a8;
+}
+
+.light-mode .ui-tabs .ui-tabs-nav {
+	color: rgb(49, 49, 49);
+	background-color: #fff;
+	transition: background 0.3s;
+}
+
+.light-mode .ui-tabs .ui-tabs-nav li a,
+.light-mode .ui-tabs .ui-tabs-nav li a:hover {
+	color: rgb(94, 94, 94);
+}
+
+.light-mode .admin-nav-pills li a:hover {
+	color: #3569ad;
+}
+
+.light-mode select {
+	color: #6d6c6c;
+	background-color: #fbfbfb;
+}
+
+.light-mode .mode-toggle {
+	background: #fff;
+	color: #000;
+}
+
+html {
+	background: #000 !important;
+	transition: background 0.3s;
+}
+
+.overlay {
+	background: #0000005c !important;
+	transition: background 0.3s !important;
+}
+
+body {
+	color: #e0e0e0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #e0e0e0;
+}
+
+.nav-justified li a {
+	color: #9a9a9a;
+}
+
+.mode-toggle.light-mode {
+	background: #000;
+	color: #fff;
+}
+
+.sub-nav {
+	border-left: 3px solid #585858;
+}
+
+.nav-pills li a:hover {
+	background: #575757;
+	color: #fff;
+}
+
+.footer {
+	background: #191919;
+	color: #b3b3b3;
+}
+
+a {
+	color: #95c6e2;
+}
+
+tr.alt td,
+.alt {
+	background-color: #252525;
+}
+
+.admin-nav-pills li a {
+	color: #e0e0e0;
+}
+
+.admin-nav-pills li a:hover {
+	color: #95c6e2;
+}
+
+.menu_category {
+	color: #95c6e2;
+}
+
+select {
+	background: #353535;
+	color: #fff;
+}
+
+.cell-label {
+	color: #fff;
+}
+
+input[type=email],
+input[type=text],
+input[type=password],
+textarea {
+	color: #e4e4e4 !important;
+	background: #353535 !important;
+}
+
+div.chzn-container ul.chzn-choices {
+	color: #e4e4e4 !important;
+	background: #353535 !important;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=password]:focus {
+	color: #e4e4e4 !important;
+	background: #353535 !important;
+}
+
+div.chzn-container ul.chzn-choices li.search-choice {
+	background: #161625 !important;
+	color: #fff !important;
+	border-color: #161625 !important;
+}
+
+.ui-tabs .ui-tabs-nav {
+	background: #000;
+	color: #fff;
+}
+
+.login form {
+	background-color: #131313 !important;
+	border: 3px solid #333333 !important;
+}
+
+.login button {}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	color: rgb(56, 56, 56);
+	background-color: #95c6e2 !important;
+}
+
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs .ui-tabs-nav li a:hover {
+	color: #fff;
+}
+
+#facebox .hud_body,
+#facebox .hud_content {
+	background: #303030;
+}
+
+.hud_content h1,
+.hud_content h2,
+.hud_content h3,
+.hud_content h4,
+.hud_content p,
+.hud_content .cell-label {
+	color: #fff !important;
+}
+
+.header .title a {
+	color: #ffffffdb !important;
+}
+
+div.uploader span.action {
+	background-color: #000 !important;
+	color: #000;
+}
+
+#facebox .hud_content .controls {
+	background: #303030;
+	border-top: 1px solid #666;
+	box-shadow: none !important;
+}
+
+div.chzn-container div.chzn-drop {
+	background: #161625 !important;
+	color: #fff !important;
+	border-color: #161625 !important;
+}
+
+.control-bar {
+	background: #161625;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
+	color: #000;
+}
+
+div.chzn-container ul.chzn-results li {
+	color: #fff !important;
+	background: #161625 !important;
+}
+
+html.light-mode {
+	background: #fff !important;
+	transition: background 0.3s;
+}
+
+div.chzn-container ul.chzn-choices li.search-field input.default {
+	color: #fff !important;
+}
+
+.light-mode .overlay {
+	background: #ffffff5c !important;
+	transition: background 0.3s !important;
+}
+
+.light-mode body {
+	color: #4e4e4e !important;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode h4,
+.light-mode h5,
+.light-mode h6 {
+	color: #7b7b7b !important;
+}
+
+.light-mode .sub-nav {
+	border-left: 3px solid #eee;
+}
+
+.light-mode .nav-pills li a:hover {
+	background: #ececec;
+	color: #5587bf;
+}
+
+.light-mode .footer {
+	background: #dedede;
+	color: #676767;
+}
+
+.light-mode a {
+	color: #2962a8 !important;
+}
+
+.light-mode .control-bar .alerts a,
+.light-mode .control-bar .settings a {
+	color: #fff !important;
+}
+
+.light-mode .header-nav a {
+	color: #fff !important;
+}
+
+.light-mode html {
+	background: #fff;
+}
+
+.light-mode tr.alt td,
+.light-mode .alt {
+	background-color: #eee;
+}
+
+.light-mode .control-bar {
+	background: #818ea1 !important;
+}
+
+.light-mode .menu_category {
+	color: #2962a8;
+}
+
+.light-mode .admin-nav-pills li a {
+	color: rgb(89, 89, 89) !important;
+}
+
+.light-mode .menu_category {
+	color: #2962a8 !important;
+}
+
+.light-mode div.chzn-container div.chzn-drop {
+	background: #fbfbfb !important;
+	border: 1px solid #dedede !important;
+}
+
+.light-mode .ui-tabs .ui-tabs-nav {
+	color: rgb(49, 49, 49) !important;
+	background-color: #fff !important;
+	transition: background 0.3s;
+}
+
+.light-mode .ui-tabs .ui-tabs-nav li a,
+.light-mode .ui-tabs .ui-tabs-nav li a:hover {
+	color: rgb(94, 94, 94) !important;
+}
+
+.light-mode .admin-nav-pills li a:hover {
+	color: #3569ad;
+}
+
+.light-mode select {
+	color: #000;
+}
+
+.light-mode .cell-label {
+	color: #000;
+}
+
+.light-mode input[type=email],
+.light-mode input[type=text],
+.light-mode input[type=password],
+.light-mode textarea {
+	color: #6d6c6c !important;
+	background-color: #fbfbfb !important;
+}
+
+.light-mode div.chzn-container ul.chzn-choices {
+	background: #fff !important;
+	color: #777 !important;
+}
+
+.light-mode input[type=email]:focus,
+.light-mode input[type=text]:focus,
+.light-mode input[type=password]:focus {
+	color: #000 !important;
+	background: #fff;
+}
+
+.light-mode div.chzn-container ul.chzn-results li {
+	color: #6d6c6c;
+}
+
+.light-mode .title {
+	color: #ffffffdb !important;
+}
+
+.light-mode.login form {
+	background: #fbfbfb !Important;
+	border: 3px solid #d9d9d9 !important;
+}
+
+.light-mode #facebox .hud_body,
+.light-mode #facebox .hud_content {
+	background: #fff;
+}
+
+.light-mode .light-mode .hud_content h1,
+.light-mode .hud_content h2,
+.light-mode .hud_content h3,
+.light-mode .hud_content h4,
+.light-mode .hud_content p,
+.light-mode .hud_content .cell-label {
+	color: #000 !important;
+}
+
+.light-mode #facebox .hud_content .controls {
+	box-shadow: initial !important;
+	border-top: 1px solid #d1d1d1;
+	background: #f4f4f4;
+}
+
+.light-mode div.uploader span.action {
+	background-color: #fff;
+	color: #000;
+}
+
+.light-mode .popover .title {
+	color: #000 !important;
+	background: transparent !important;
+}
