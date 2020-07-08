@@ -15,29 +15,27 @@ class Admin extends Nova_admin {
 	 
 	public function theme()
 	{
-	    Auth::check_access('site/catalogueskins');
+		Auth::check_access('site/catalogueskins');
 	    
 		$data['header'] = "Andromeda Settings";
 	
-        $this->_regions['content'] = Location::view('admin_theme', $this->skin, 'admin', $data);
-        $this->_regions['title'].= $data['header'];
+        	$this->_regions['content'] = Location::view('admin_theme', $this->skin, 'admin', $data);
+        	$this->_regions['title'].= $data['header'];
 	
-        Template::assign($this->_regions);
-	
-        Template::render();
-    }
+        	Template::assign($this->_regions);
+        	Template::render();
+    	}
     
-    public function styles()
-    {
-	    Auth::check_access('site/catalogueskins');
+    	public function styles()
+    	{
+		Auth::check_access('site/catalogueskins');
 	    
 		$data['header'] = "Andromeda Styles";
-	
-        $this->_regions['content'] = Location::view('admin_styles', $this->skin, 'admin', $data);
-        $this->_regions['title'].= $data['header'];
-	
-        Template::assign($this->_regions);
-	
-        Template::render();
+			
+        	$this->_regions['content'] = Location::view('admin_styles', $this->skin, 'admin', $data);
+        	$this->_regions['title'].= $data['header'];
+		
+		Template::assign($this->_regions);
+		Template::render();
     }
 }
