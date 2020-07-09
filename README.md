@@ -39,7 +39,7 @@
 - The Andromeda theme is **open source**, meaning anyone can use, edit, or redistribute the theme as long as the original [license and credits](https://github.com/ewolf90/andromeda/blob/master/LICENSE) remain intact.  
 - **If you find a bug in the theme**, please submit a [bug report](https://github.com/ewolf90/andromeda/issues) through GitHub. 
 - **If you find a solution to a bug**, please submit a [pull request](https://github.com/ewolf90/andromeda/compare) and contribute to the GitHub repository. :heart:
-- **If you intend to redistribute Andromeda**, please upload a copy of your work to [Anodyne Xtras]() so the rest of the community can use it! This is not required in the license, but the community would greatly appreciate it! :blush:
+- **If you intend to redistribute Andromeda**, please upload a copy of your work to [Anodyne Xtras](https://xtras.anodyne-productions.com/) so the rest of the community can use it! This is not required in the license, but the community would greatly appreciate it! :blush:
 - **If you copy elements of Andromeda for your theme/website** (including, but not limited to, dark mode, the stylesheet editor, or the configuration page) please include the original [license and credits](https://github.com/ewolf90/andromeda/blob/master/LICENSE).
 
 ### Cookie Disclaimer
