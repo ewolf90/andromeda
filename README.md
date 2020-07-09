@@ -19,7 +19,7 @@
   - [Game License](https://github.com/ewolf90/andromeda#game-license)
   - [Game Rating](https://github.com/ewolf90/andromeda#game-rating)
   - [Discord Widget](https://github.com/ewolf90/andromeda#discord-widget)
-- [Customizing](https://github.com/ewolf90/andromeda#customizing)
+- [Customization](https://github.com/ewolf90/andromeda#customization)
   - [Header Image](https://github.com/ewolf90/andromeda#header-image)
   - [Stylesheets](https://github.com/ewolf90/andromeda#stylesheets)
   - [Font Awesome](https://github.com/ewolf90/andromeda#font-awesome)
@@ -75,7 +75,7 @@ The Andromeda theme has an option to add a Discord widget to the sidebar of the 
 
 > <img src="https://wolfsims.org/images/themes/andromeda/discord-widget.png">
 
-## Customizing
+## Customization
 ### Header Image 
 To add a custom header image, replace the `header.jpg` image located in `/andromeda/global/images`. 
 
