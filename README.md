@@ -47,7 +47,7 @@ This website uses a cookie to track each user's dark or light mode preference. T
 
 ### Screenshots
 <img src="https://wolfsims.org/images/themes/andromeda/main-light.png">
-<img src="https://wolfsims.org/images/themes/andromeda/main-dark.png">
+<img src="https://wolfsims.org/images/themes/andromeda/admin-dark.png">
 <img src="https://wolfsims.org/images/themes/andromeda/mobile.png">
 
 ## Configuration
