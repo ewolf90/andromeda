@@ -46,7 +46,8 @@ The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http:/
 This website uses a cookie to track each user's dark or light mode preference. This theme **does not** track user any other user data. 
 
 ### Screenshots
-<img src="https://wolfsims.org/images/themes/andromeda/main.png">
+<img src="https://wolfsims.org/images/themes/andromeda/main-light.png">
+<img src="https://wolfsims.org/images/themes/andromeda/main-dark.png">
 <img src="https://wolfsims.org/images/themes/andromeda/mobile.png">
 
 ## Configuration
