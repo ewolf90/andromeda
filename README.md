@@ -125,7 +125,7 @@ This theme supports responsive rows and columns using a 12-column grid. You can 
 This will create two columns that take up the full width of a small device and half width on a medium-sized device. On larger devices, the first column will take up 1/4 (3/12) of the screen while the second column will take up 3/4 (9/12) of the screen.
 
 ## Support
-If you need any help installing, configuring, or customizing this theme, please join [Anodyne's Discord server](https://discordapp.com/invite/7xtrzB7) and use the room #help. Otherwise, send me direct message on Discord (@Emily#6153) or [email me](mailto:emily@wolfsims.org).
+If you need any help installing, configuring, or customizing this theme, please join [Anodyne's Discord server](https://discord.gg/h7R2jfA) and use the room #help. Otherwise, send me direct message on Discord (@Emily#6153) or [email me](mailto:emily@wolfsims.org).
 
 ## Credits
 The **Andromeda Theme** was created by [Emily Wolf](mailto:emily@wolfsims.org) for the [Nova 2](http://www.anodyne-productions.com/nova) roleplay management system. This theme uses [Animsition](https://git.blivesta.com/animsition/) created by [Blivesta](https://www.blivesta.com/) and [Font Awesome](https://fontawesome.com).
