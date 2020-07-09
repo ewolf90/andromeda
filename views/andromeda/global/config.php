@@ -4,6 +4,14 @@
         'dark_mode' => false,
         'dark_mode_button' => true,
         
+        // Discord Widget
+        'discord_show' => false,
+        'discord_server_id' => 'SERVER_ID',
+        'discord_theme' => 'dark',
+        'discord_height' => '350px',
+        'discord_width' => '90%',
+        'discord_styles' => '',
+        
         // Game Rating
         'rating_show' => true,
         'rating_language' => '1',
