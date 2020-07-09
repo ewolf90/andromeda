@@ -177,6 +177,9 @@ $darkMode =  $_COOKIE['darkMode'];?>
     			<div class="container">
 				<div class="row">
 					<div class="col s12 m6 l3">
+					    <?php if($theme_settings['discord_show']){?>
+					    <center><iframe src="https://discordapp.com/widget?id=<?php echo $theme_settings['discord_server_id'];?>&theme=<?php echo $theme_settings['discord_theme'];?>" width="<?php echo $theme_settings['discord_width'];?>" height="<?php echo $theme_settings['discord_height'];?>" style="<?php echo $theme_settings['discord_styles'];?>" allowtransparency="true" frameborder="0"></iframe></center>
+					    <?php }?>
 					    <?php echo str_replace('<ul' , '<ul class="admin-nav-pills" style="border-bottom:0px solid !important;"' , $nav_sub);?>
 					    <?php 
 					    if (Auth::check_access('site/catalogueskins')){?>
