@@ -1,5 +1,5 @@
-<div align="center"><h3>Andromeda Theme</h3><br><br>
-  
+<div align="center"><span></span>
+
 [![Version](https://img.shields.io/badge/Version-v1.0.0-brightgreen.svg "Version")](https://github.com/ewolf90/andromeda/releases/tag/v1.0.0) [![Nova](https://img.shields.io/badge/Nova-v2.6.1-orange.svg "Nova Version")](http://www.anodyne-productions.com/nova) [![PHP](https://img.shields.io/badge/PHP-v5.3.0-blue.svg "PHP Version")](https://www.php.net) 
 [![License](https://img.shields.io/badge/license-BSD-red.svg)](https://opensource.org/licenses/MIT)
 
