@@ -43,7 +43,7 @@ The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http:/
 - **If you copy elements of Andromeda for your theme/website** (including, but not limited to, dark mode, the stylesheet editor, or the configuration page) please include the original [license and credits](https://github.com/ewolf90/andromeda/blob/master/LICENSE).
 
 ### Cookie Disclaimer
-This website uses a cookie to track each user's dark/light mode preference. If you're located in the European Union, you may want to include a notice to your users about the cookie. This theme **does not** track user any other user data. 
+This website uses a cookie to track each user's dark/light mode preference. This theme **does not** track user any other user data. 
 
 ### Screenshots
 
