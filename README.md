@@ -43,7 +43,7 @@ The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http:/
 - **If you copy elements of Andromeda for your theme/website** (including, but not limited to, dark mode, the stylesheet editor, or the configuration page) please include the original [license and credits](https://github.com/ewolf90/andromeda/blob/master/LICENSE).
 
 ### Cookie Disclaimer
-This website uses a cookie to track each user's dark/light mode preference. This theme **does not** track user any other user data. 
+This website uses a cookie to track each user's dark or light mode preference. This theme **does not** track user any other user data. 
 
 ### Screenshots
 
@@ -55,14 +55,22 @@ Alternatively, you can edit the configuration file located in `/andromeda/global
 ### Dark Mode
 The Andromeda theme uses **cookies** to track each user's preferred theme mode. The two options are "light" (default) and "dark" modes, which each user can change by clicking the icon on the bottom right corner of every page. The Theme Manager's Settings page allows administrators to set a default mode and control the visibility of the mode switcher.
 
+> <img src="https://wolfsims.org/images/themes/andromeda/dark-mode.png">
+
 ### Game License
 The Andromeda theme allows Game Managers to define a license for all of the content made available through the game's website. The recommended license is the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0), which is pre-loaded into the theme. Game Managers are welcome to define a preferred license or no license at all.
+
+> <img src="https://wolfsims.org/images/themes/andromeda/game-license.png">
 
 ### Game Rating
 The Andromeda theme allows Game Managers to define a rating for the content on the game's website. The theme uses the [RPG Rating](https://rpgrating.com) system to define content through an image in the site's footer. The theme accepts input for language, sex, and violence on a scale of 0-3. Game Managers also have the ability to turn off this feature.
 
+> <img src="https://wolfsims.org/images/themes/andromeda/game-rating.png">
+
 ### Discord Widget
 The Andromeda theme has an option to add a Discord widget to the sidebar of the Admin Control Panel. Your Discord server must have the Server Widget enabled (`Server Settings > Widget > Enable Server Widget`). To enable this widget, copy your Server ID from Discord and place it in the appropriate location in the Theme Manager's Settings page. Game Managers can also edit other attributes of the widget, such as the default theme, height, width, and CSS styles.
+
+> <img src="https://wolfsims.org/images/themes/andromeda/discord-widget.png">
 
 ## Customizing
 ### Header Image 
@@ -77,6 +85,8 @@ You can find original copies of the Andromeda's stylesheets in the theme's the [
 - [structure.css](https://github.com/ewolf90/andromeda/blob/master/views/andromeda/global/css/structure.css)
 - [tabs.css](https://github.com/ewolf90/andromeda/blob/master/views/andromeda/global/css/tabs.css)
 - [dark.css](https://github.com/ewolf90/andromeda/blob/master/views/andromeda/global/css/dark.css)
+
+> <img src="https://wolfsims.org/images/themes/andromeda/style-editor.png">
 
 ### Font Awesome
 This theme uses the free version of the [Font Awesome 5](https://fontawesome.com) icon set. Several buttons throughout the theme use Font Awesome, but Game Managers are welcome to use the resource for other links (ex: social media buttons). 
