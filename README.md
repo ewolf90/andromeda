@@ -6,7 +6,7 @@
 [Report a Bug](https://github.com/ewolf90/andromeda/issues) | [Contribute](https://github.com/ewolf90/andromeda/compare) </div>
 
 ## Overview
-The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management system. Andromeda offers extensive customization options unlike any other Nova theme. Users can select between light and dark modes of the theme without having to change their preferences, and administrators can edit CSS files directly from Nova's control panel. Andromeda was created by <a href="mailto:emily@wolfsims.org">Emily Wolf</a> and released under the <a href="https://github.com/ewolf90/andromeda/blob/master/LICENSE">BSD 3-Clause License</a>.
+<b>Andromeda</b> is a modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management system. Andromeda offers extensive customization options unlike any other Nova theme. Users can select between light and dark modes of the theme without having to change their preferences, and administrators can edit CSS files directly from Nova's control panel. Andromeda was created by <a href="mailto:emily@wolfsims.org">Emily Wolf</a> and released under the <a href="https://github.com/ewolf90/andromeda/blob/master/LICENSE">BSD 3-Clause License</a>.
 
 ### Table of Contents
 - [Getting Started](https://github.com/ewolf90/andromeda#getting-started)
