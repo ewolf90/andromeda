@@ -1,11 +1,14 @@
-<div align="center">The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management platform. Andromeda offers extensive customization options unlike any other Nova theme. Users can select between light and dark modes of the theme without having to change their preferences, and administrators can edit CSS files directly from Nova's control panel. Andromeda was created by <a href="mailto:emily@wolfsims.org">Emily Wolf</a> and released under the <a href="https://github.com/ewolf90/andromeda/blob/master/LICENSE">BSD 3-Clause License</a>.<br><br>
+<div align="center"><h3>Andromeda Theme</h3><br><br>
   
 [![Version](https://img.shields.io/badge/Version-v1.0.0-brightgreen.svg "Version")](https://github.com/ewolf90/andromeda/releases/tag/v1.0.0) [![Nova](https://img.shields.io/badge/Nova-v2.6.1-orange.svg "Nova Version")](http://www.anodyne-productions.com/nova) [![PHP](https://img.shields.io/badge/PHP-v5.3.0-blue.svg "PHP Version")](https://www.php.net) 
 [![License](https://img.shields.io/badge/license-BSD-red.svg)](https://opensource.org/licenses/MIT)
 
 [Report a Bug](https://github.com/ewolf90/andromeda/issues) | [Contribute](https://github.com/ewolf90/andromeda/compare) </div>
 
-## Table of Contents
+## Overview
+The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management platform. Andromeda offers extensive customization options unlike any other Nova theme. Users can select between light and dark modes of the theme without having to change their preferences, and administrators can edit CSS files directly from Nova's control panel. Andromeda was created by <a href="mailto:emily@wolfsims.org">Emily Wolf</a> and released under the <a href="https://github.com/ewolf90/andromeda/blob/master/LICENSE">BSD 3-Clause License</a>.
+
+### Table of Contents
 - Getting Started
   - Installation
   - Improving and Redistributing
