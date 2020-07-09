@@ -21,6 +21,14 @@
         'dark_mode' => ".$_POST['darkMode'].",
         'dark_mode_button' => ".$_POST['darkModeButton'].",
         
+        // Discord Widget
+        'discord_show' => ".$_POST['discordShow'].",
+        'discord_server_id' => '".$_POST['discordID']."',
+        'discord_theme' => '".$_POST['discordTheme']."',
+        'discord_height' => '".$_POST['discordHeight']."',
+        'discord_width' => '".$_POST['discordWidth']."',
+        'discord_styles' => '".$_POST['discordStyles']."',
+        
         // Game Rating
         'rating_show' => ".$_POST['ratingShow'].",
         'rating_language' => '".$_POST['ratingLanguage']."',
@@ -44,6 +52,42 @@
 ?>
 
 <?php echo form_open('admin/theme');?>
+    <h3 class="page-subhead">Discord Widget</h3>
+    <p>
+        <kbd>Show Discord Widget</kbd>
+    	<input type="radio" id="discordTrue" name="discordShow" value="true" <?php if($theme_settings['discord_show']){echo "checked";}?>>
+        <label for="discordTrue">Yes</label><br>
+        <input type="radio" id="discordFalse" name="discordShow" value="false" <?php if(!$theme_settings['discord_show']){echo "checked";}?>>
+        <label for="discordFalse">No</label>
+    </p>
+    <p>
+	    <kbd>Server ID</kbd>
+	    <input type="text" value="<?php echo $theme_settings['discord_server_id'];?>" min="0" max="3" name="discordID">
+	</p>
+	
+	<p>
+	    <kbd>Widget Theme</kbd>
+        <select name="discordTheme">
+          <option value="light" <?php if($theme_settings['discord_theme'] == 'light'){echo "selected";}?>>Light</option>
+          <option value="dark" <?php if($theme_settings['discord_theme'] == 'dark'){echo "selected";}?>>Dark</option>
+        </select>
+	</p>
+	
+	<p>
+	    <kbd>Height</kbd>
+	    <input type="text" value="<?php echo $theme_settings['discord_height'];?>" min="0" max="3" name="discordHeight">
+	</p>
+	
+	<p>
+	    <kbd>Width</kbd>
+	    <input type="text" value="<?php echo $theme_settings['discord_width'];?>" min="0" max="3" name="discordWidth">
+	</p>
+	
+	<p>
+	    <kbd>Widget Styles</kbd>
+	    <textarea class="code" name="discordStyles" rows="5"><?php echo $theme_settings['discord_styles'];?></textarea>
+	</p><br>
+	
     <h3 class="page-subhead">Game Rating</h3>
     <p>This theme uses <a href="http://rpgrating.com/">RPG Rating</a> to display your game's rating. You can use this system to define acceptable content for your readers and writers. Each option uses a scale of 0-3.</p>
     <p>
@@ -69,7 +113,7 @@
 	</p><br>
 
 	<h3 class="page-subhead">Game License</h3>
-	<p>This theme uses the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> license by default. We suggest using a <a href="https://creativecommons.org/choose/">Creative Commons</a> license for your game, but you're welcome to use your preferred license.</p>
+	<p>This theme uses the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> license by default. We suggest using a <a href="https://creativecommons.org/choose/">Creative Commons</a> license for your game, but you're welcome to use your preferred license (or no license).</p>
 	<p>
         <kbd>Show Game License</kbd>
     	<input type="radio" id="licenseTrue" name="licenceShow" value="true" <?php if($theme_settings['license_show']){echo "checked";}?>>
