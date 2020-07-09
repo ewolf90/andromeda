@@ -9,24 +9,24 @@
 The <b>Andromeda Theme</b> is a modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management platform. Andromeda offers extensive customization options unlike any other Nova theme. Users can select between light and dark modes of the theme without having to change their preferences, and administrators can edit CSS files directly from Nova's control panel. Andromeda was created by <a href="mailto:emily@wolfsims.org">Emily Wolf</a> and released under the <a href="https://github.com/ewolf90/andromeda/blob/master/LICENSE">BSD 3-Clause License</a>.
 
 ### Table of Contents
-- Getting Started
-  - Installation
-  - Improving and Redistributing
-  - Cookie Disclaimer
-  - Screenshots
-- Configuration
-  - Dark Mode
-  - Game License
-  - Game Rating
-  - Discord Widget
-- Customizing
-  - Header Image
-  - Stylesheets
-  - Font Awesome
-  - Rows & Columns
-- Support
-- Credits
-  - License
+- [Getting Started](https://github.com/ewolf90/andromeda#getting-started)
+  - [Installation](https://github.com/ewolf90/andromeda#installation)
+  - [Improving and Redistributing](https://github.com/ewolf90/andromeda#improving-and-redistributing)
+  - [Cookie Disclaimer](https://github.com/ewolf90/andromeda#cookie-disclaimer)
+  - [Screenshots](https://github.com/ewolf90/andromeda#screenshots)
+- [Configuration](https://github.com/ewolf90/andromeda#configuration)
+  - [Dark Mode](https://github.com/ewolf90/andromeda#dark-mode)
+  - [Game License](https://github.com/ewolf90/andromeda#game-license)
+  - [Game Rating](https://github.com/ewolf90/andromeda#game-rating)
+  - [Discord Widget](https://github.com/ewolf90/andromeda#discord-widget)
+- [Customizing](https://github.com/ewolf90/andromeda#customizing)
+  - [Header Image](https://github.com/ewolf90/andromeda#header-image)
+  - [Stylesheets](https://github.com/ewolf90/andromeda#stylesheets)
+  - [Font Awesome](https://github.com/ewolf90/andromeda#font-awesome)
+  - [Rows & Columns](https://github.com/ewolf90/andromeda#rows--columns)
+- [Support](https://github.com/ewolf90/andromeda#support)
+- [Credits](https://github.com/ewolf90/andromeda#credits)
+  - [License](https://github.com/ewolf90/andromeda#license)
 
 ## Getting Started
 ### Installation
