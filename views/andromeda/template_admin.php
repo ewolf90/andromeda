@@ -251,7 +251,7 @@ $darkMode =  $_COOKIE['darkMode'];?>
                   </div>
                   <div class="col s12 m4 l4">
                       <div style="margin-top: 10px;" class="center">
-                          Powered by <a href="http://anodyne-productions.com/nova">Nova</a> &nbsp;|&nbsp; <a href="">Andromeda</a> designed by <a href="http://wolfsims.org">Emily</a>
+                          Powered by <a href="http://anodyne-productions.com/nova">Nova</a> &nbsp;|&nbsp; <a href="https://github.com/ewolf90/andromeda">Andromeda</a> designed by <a href="http://wolfsims.org">Emily</a>
                       </div>
                   </div>
                   <div class="col s12 m4 l4">
