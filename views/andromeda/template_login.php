@@ -164,7 +164,7 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\r\n";
                   </div>
                   <div class="col s12 m4 l4">
                       <div style="margin-top: 10px;" class="center">
-                          <a href="http://anodyne-productions.com/nova">Nova</a> &nbsp;|&nbsp; <a href="">Andromeda</a> &nbsp;|&nbsp; <a href="mailto:emilywolf90@gmail.com">Emily Wolf</a>
+                          Powered by <a href="http://anodyne-productions.com/nova">Nova</a> &nbsp;|&nbsp; <a href="https://github.com/ewolf90/andromeda">Andromeda</a> designed by <a href="http://wolfsims.org">Emily</a>
                       </div>
                   </div>
                   <div class="col s12 m4 l4">
