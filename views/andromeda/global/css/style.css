@@ -36,7 +36,7 @@ body {
 }
 
 .header {
-	background: #000 url(../images/andromeda.jpg);
+	background: #000 url(../images/header.jpg);
 	height: 400px;
 	width: 100%;
 	background-size: cover;
@@ -54,7 +54,7 @@ body {
 	position: fixed;
 	width: 97%;
 	z-index: 1;
-	background: #ffffff url(../images/andromeda.jpg);
+	background: #ffffff url(../images/header.jpg);
 	background-size: cover;
 	background-position: bottom center;
 	margin-bottom: 30px;
