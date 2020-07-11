@@ -1,10 +1,4 @@
-<h1 align="center">
-  <br>
-  <a href="https://wolfsims.org"><img src="https://wolfsims.org/images/wolf-blue.png" alt="Wolf Sims" width="200"></a>
-  <br><br>
-  Andromeda
-  <br>
-</h1>
+<h1 align="center">Andromeda</h1>
 
 <h4 align="center">A modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management system.</h4>
 
