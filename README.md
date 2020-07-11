@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://wolfsims.org"><img src="https://wolfsims.org/images/themes/andromeda/andromeda-light.png" width="400px"></a>
+  <a href="https://wolfsims.org"><img src="https://wolfsims.org/images/themes/andromeda/andromeda-bg.png" width="450px"></a>
 </p>
 
 <h4 align="center">A modern, responsive theme for the <a href="http://www.anodyne-productions.com/nova">Nova 2</a> roleplay management system.</h4>
