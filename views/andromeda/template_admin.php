@@ -226,8 +226,8 @@ $darkMode =  $_COOKIE['darkMode'];?>
 					    if (Auth::check_access('site/catalogueskins')){?>
 					    <ul class="admin-nav-pills" style="border-bottom:0px solid !important;">
 					        <li class="menu_category">Theme Manager</li>
-					        <li><a href="/index.php/admin/theme"><span>Settings</span></a></li>
-					        <li><a href="/index.php/admin/styles"><span>Stylesheets</span></a></li>
+					        <li><a href="<?php echo site_url('admin/theme');?>"><span>Settings</span></a></li>
+					        <li><a href="<?php echo site_url('admin/styles');?>"><span>Stylesheets</span></a></li>
 					   </ul>
 					   <?php } ?>
 					   <br>
@@ -246,7 +246,7 @@ $darkMode =  $_COOKIE['darkMode'];?>
 		        <div class="row">
                   <div class="col s12 m4 l4">
                       <div style="margin-top: 10px;">
-                        &copy; <?php echo $this->options['sim_name'].' '.date("Y");?> &nbsp;|&nbsp; <a href="/index.php/main/credits">Credits</a>
+                        &copy; <?php echo $this->options['sim_name'].' '.date("Y");?> &nbsp;|&nbsp; <a href="<?php echo site_url('main/credits');?>">Credits</a>
                       </div>
                   </div>
                   <div class="col s12 m4 l4">
