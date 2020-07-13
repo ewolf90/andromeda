@@ -159,7 +159,7 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\r\n";
 		        <div class="row">
                   <div class="col s12 m4 l4">
                       <div style="margin-top: 10px;">
-                        &copy; <?php echo $this->options['sim_name'].' '.date("Y");?> &nbsp;|&nbsp; <a href="/index.php/main/credits">Credits</a>
+                        &copy; <?php echo $this->options['sim_name'].' '.date("Y");?> &nbsp;|&nbsp; <a href="<?php echo site_url('main/credits');?>">Credits</a>
                       </div>
                   </div>
                   <div class="col s12 m4 l4">
