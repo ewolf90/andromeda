@@ -45,7 +45,7 @@
 1. Begin by downloading `andromeda.zip` of the latest release ([v1.0.0](https://github.com/ewolf90/andromeda/releases/tag/v1.0.0)). 
 2. Upload the `/views/andromeda` folder into your website's `/application/views` folder. Ensure the theme's directory name is `andromeda`. Any other folder name will break the skin.
 3. Upload the `/controllers/admin.php` file to `/application/controllers`. If you have a custom Admin controller, copy lines 16-40 into the `admin.php` file.
-3. Login to your Nova website as a System Administrator. Navigate to `Control Panel > Site Management > Skin Catalogue` and click `Install` next to the `Andromeda` banner on the top of the page.
+4. Login to your Nova website as a System Administrator. Navigate to `Control Panel > Site Management > Skin Catalogue` and click `Install` next to the `Andromeda` banner on the top of the page.
 
 ### Improving and Redistributing
 - The Andromeda theme is **open source**, meaning anyone can use, edit, or redistribute the theme as long as the original [license and credits](https://github.com/ewolf90/andromeda/blob/master/LICENSE) remain intact.  
