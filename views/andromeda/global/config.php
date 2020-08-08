@@ -57,7 +57,7 @@ $theme_settings = array(
     'discord_theme' => 'dark',
     'discord_height' => '350px',
     'discord_width' => '90%',
-    'discord_styles' => '',
+    'discord_styles' => 'margin-bottom:35px;',
         
     // Game Rating
     'rating_show' => true,
