@@ -1076,11 +1076,16 @@ div.uploader span.action {
 	right: 20px;
 	background: #fff;
 	color: #000;
-	padding: 13px 11px;
+	width: 45px;
+	height: 45px;
 	border-radius: 900px;
 	z-index: 10000;
 	transition: 0s !important;
 	display: none;
+}
+
+.mode-toggle i{
+	padding: 15px 13px;
 }
 
 .mode-toggle.show {
