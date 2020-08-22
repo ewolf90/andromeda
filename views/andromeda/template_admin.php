@@ -3,47 +3,6 @@
 |---------------------------------------------------------------
 | TEMPLATE - ADMIN
 |---------------------------------------------------------------
-|
-| Andromeda Theme by Emily Wolf
-|
-| File: application/views/andromeda/template_admin.php
-| Version: 1.0
-| GitHub: github.com/ewolf90/andromeda
-|
-| Copyright (c) 2020, Emily Wolf All rights reserved.
-| 
-| Redistribution and use in source and binary forms, with or 
-| without modification, are permitted provided that the following 
-| conditions are met:
-| 
-|   1. Redistributions of source code must retain the above 
-|      copyright notice, this list of conditions and the 
-|      following disclaimer.
-| 
-|   2. Redistributions in binary form must reproduce the above 
-|      copyright notice, this list of conditions and the 
-|      following disclaimer in the documentation and/or other 
-|      materials provided with the distribution.
-| 
-|   3. Neither the name of the copyright holder nor the names 
-|      of its contributors may be used to endorse or promote 
-|      products derived from this software without specific 
-|      prior written permission.
-| 
-| THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND 
-| CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
-| INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
-| MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-| DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR 
-| CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
-| SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-| NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
-| LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
-| HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,WHETHER IN 
-| CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
-| OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
-| EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-| 
 */
 $sec = 'global';
 $css = 'main.css';
@@ -192,6 +151,11 @@ $darkMode =  $_COOKIE['darkMode'];?>
                 				$fetch = mysqli_query($conn, $query);
                 				$user = mysqli_fetch_row($fetch);
                 				$name = $user[0];
+                				
+                				$webmaster_query = "SELECT is_webmaster FROM nova_users WHERE userid = '$session'";
+                				$webmaster_fetch = mysqli_query($conn, $webmaster_query);
+                				$webmaster_value = mysqli_fetch_row($webmaster_fetch);
+                				$is_webmaster = $webmaster_value[0];
 
 				                echo '<b>Welcome to the '.$this->options['sim_name'].', '.$name.'!</b>';
 				                mysqli_close($conn);
@@ -222,6 +186,13 @@ $darkMode =  $_COOKIE['darkMode'];?>
 					    <center><iframe src="https://discordapp.com/widget?id=<?php echo $theme_settings['discord_server_id'];?>&theme=<?php echo $theme_settings['discord_theme'];?>" width="<?php echo $theme_settings['discord_width'];?>" height="<?php echo $theme_settings['discord_height'];?>" style="<?php echo $theme_settings['discord_styles'];?>" allowtransparency="true" frameborder="0"></iframe></center>
 					    <?php }?>
 					    <?php echo str_replace('<ul' , '<ul class="admin-nav-pills" style="border-bottom:0px solid !important;"' , $nav_sub);?>
+					    <?php if($is_webmaster == "y"){ ?>
+					    <ul class="admin-nav-pills" style="border-bottom:0px solid !important;">
+					        <li class="menu_category">Theme Manager</li>
+					        <li><a href="/index.php/admin/theme"><span>Settings</span></a></li>
+					        <li><a href="/index.php/admin/styles"><span>Stylesheets</span></a></li>
+					   </ul>
+					   <?php } ?>
 					   <br>
 					</div>
 					<div class="col s12 m6 l9">
@@ -238,12 +209,12 @@ $darkMode =  $_COOKIE['darkMode'];?>
 		        <div class="row">
                   <div class="col s12 m4 l4">
                       <div style="margin-top: 10px;">
-                        &copy; <?php echo $this->options['sim_name'].' '.date("Y");?> &nbsp;|&nbsp; <a href="<?php echo site_url('main/credits');?>">Credits</a>
+                        &copy; <?php echo $this->options['sim_name'].' '.date("Y");?> &nbsp;|&nbsp; <a href="/index.php/main/credits">Credits</a>
                       </div>
                   </div>
                   <div class="col s12 m4 l4">
                       <div style="margin-top: 10px;" class="center">
-                          Powered by <a href="http://anodyne-productions.com/nova">Nova</a> &nbsp;|&nbsp; <a href="https://github.com/ewolf90/andromeda">Andromeda</a> designed by <a href="http://wolfsims.org">Emily</a>
+                          Powered by <a href="http://anodyne-productions.com/nova">Nova</a> &nbsp;|&nbsp; <a href="">Andromeda</a> designed by <a href="http://wolfsims.org">Emily</a>
                       </div>
                   </div>
                   <div class="col s12 m4 l4">
