@@ -222,14 +222,6 @@ $darkMode =  $_COOKIE['darkMode'];?>
 					    <center><iframe src="https://discordapp.com/widget?id=<?php echo $theme_settings['discord_server_id'];?>&theme=<?php echo $theme_settings['discord_theme'];?>" width="<?php echo $theme_settings['discord_width'];?>" height="<?php echo $theme_settings['discord_height'];?>" style="<?php echo $theme_settings['discord_styles'];?>" allowtransparency="true" frameborder="0"></iframe></center>
 					    <?php }?>
 					    <?php echo str_replace('<ul' , '<ul class="admin-nav-pills" style="border-bottom:0px solid !important;"' , $nav_sub);?>
-					    <?php 
-					    if (Auth::check_access('site/catalogueskins')){?>
-					    <ul class="admin-nav-pills" style="border-bottom:0px solid !important;">
-					        <li class="menu_category">Theme Manager</li>
-					        <li><a href="<?php echo site_url('admin/theme');?>"><span>Settings</span></a></li>
-					        <li><a href="<?php echo site_url('admin/styles');?>"><span>Stylesheets</span></a></li>
-					   </ul>
-					   <?php } ?>
 					   <br>
 					</div>
 					<div class="col s12 m6 l9">
