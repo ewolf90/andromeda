@@ -7,7 +7,7 @@
 | Andromeda Theme by Emily Wolf
 |
 | File: application/views/andromeda/admin/pages/admin_styles.php
-| Version: 1.0
+| Version: 1.0.1
 | GitHub: github.com/ewolf90/andromeda
 |
 | Copyright (c) 2020, Emily Wolf All rights reserved.
