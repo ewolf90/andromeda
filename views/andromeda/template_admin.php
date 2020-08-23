@@ -220,8 +220,11 @@ $darkMode =  $_COOKIE['darkMode'];?>
                   <div class="col s12 m4 l4">
                       <div class="right">
                           <?php if($theme_settings['rating_show']){?>
-                          <a href="http://rpgrating.com"><img src="https://rpgrating.com/ratings/<?php echo $theme_settings['rating_language'];echo $theme_settings['rating_sex'];echo $theme_settings['rating_violence'];?>.png" /></a> &nbsp;
-                          <?php }?>
+                          <a href="http://rpgrating.com" class="rating-box">
+                              <div class="rating-num rating-num-<?php echo $theme_settings['rating_language'];?>"><?php echo $theme_settings['rating_language'];?></div>
+                              <div class="rating-num rating-num-<?php echo $theme_settings['rating_sex'];?>"><?php echo $theme_settings['rating_sex'];?></div>
+                              <div class="rating-num rating-num-<?php echo $theme_settings['rating_violence'];?>"><?php echo $theme_settings['rating_violence'];?></div>
+                          </a>&nbsp;
                           <?php if($theme_settings['license_show']){?>
                           <a href="<?php echo $theme_settings['license_link'];?>"><img style="<?php echo $theme_settings['license_styles'];?>" src="<?php echo $theme_settings['license_image'];?>"></a>
                           <?php }?>
