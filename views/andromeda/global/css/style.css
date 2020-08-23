@@ -1002,6 +1002,44 @@ input.button-sec {
 	float: right !important;
 }
 
+.rating-box{
+    display: inline-block;
+}
+
+.rating-num{
+    float: left;
+    padding: 2px 9px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.rating-num-0{
+    background: #2ecd70;
+}
+
+.rating-num-1{
+    background: #e4ba0d;
+}
+
+.rating-num-2{
+    background: #d45403;
+}
+
+.rating-num-3{
+    background: #c03a2b;
+}
+
+.rating-num:first-of-type{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.rating-num:last-of-type{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
 .login form {
 	padding: 0px 20px 20px 20px;
 	background-color: #fbfbfb;
