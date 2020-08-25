@@ -266,7 +266,8 @@ $darkMode =  $_COOKIE['darkMode'];?>
                               <div class="rating-num rating-num-<?php echo $theme_settings['rating_sex'];?>"><?php echo $theme_settings['rating_sex'];?></div>
                               <div class="rating-num rating-num-<?php echo $theme_settings['rating_violence'];?>"><?php echo $theme_settings['rating_violence'];?></div>
                           </a>&nbsp;
-                          <?php if($theme_settings['license_show']){?>
+			  <?php } ?>
+			  <?php if($theme_settings['license_show']){?>
                           <a href="<?php echo $theme_settings['license_link'];?>"><img style="<?php echo $theme_settings['license_styles'];?>" src="<?php echo $theme_settings['license_image'];?>"></a>
                           <?php }?>
                       </div>
