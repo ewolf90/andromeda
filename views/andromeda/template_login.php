@@ -79,7 +79,7 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\r\n";
 		<meta name="viewport" content="initial-scale=1">
 		<?php 
         if($darkMode == "enabled"){
-            echo '<link href="/application/views/argonaut/global/css/dark.css" rel="stylesheet">';
+            echo '<link href="/application/views/andromeda/global/css/dark.css" rel="stylesheet">';
         }?>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:600,600i,900" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oswald:600&display=swap" rel="stylesheet">
