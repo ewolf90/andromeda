@@ -99,7 +99,7 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\r\n";
 		<?php echo link_tag($link); ?>
 		<?php 
         if($darkMode == "enabled"){
-            echo '<link href="/application/views/argonaut/global/css/dark.css" rel="stylesheet">';
+            echo '<link href="/application/views/andromeda/global/css/dark.css" rel="stylesheet">';
         }?>
 		<?php include_once($this->config->item('include_head_main')); ?>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:600,600i,900" rel="stylesheet">

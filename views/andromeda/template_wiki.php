@@ -98,7 +98,7 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\r\n";
 		<?php 
         $darkMode =  $_COOKIE['darkMode'];
         if($darkMode == "enabled"){
-            echo '<link href="/application/views/argonaut/global/css/dark.css" rel="stylesheet">';
+            echo '<link href="/application/views/andromeda/global/css/dark.css" rel="stylesheet">';
         }?>
 		<?php include_once($this->config->item('include_head_main')); ?>
 		<?php echo $javascript;?>
