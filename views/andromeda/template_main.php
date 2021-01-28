@@ -193,6 +193,7 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\r\n";
 
 				                echo '<b>Welcome to the '.$this->options['sim_name'].', '.$name.'!</b>';
 				                mysqli_close($conn);
+					    	unset($db);
 				            endif;
 	                    	?>
         			    </div>
