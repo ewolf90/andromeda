@@ -199,6 +199,7 @@ $darkMode =  $_COOKIE['darkMode'];?>
                 				$is_webmaster = $webmaster_value[0];
 
 				                echo '<b>Welcome to the '.$this->options['sim_name'].', '.$name.'!</b>';
+					    	unset($db);
 				                mysqli_close($conn);
 	                    	?>
         			    </div>
